@@ -1,7 +1,7 @@
 import pdfplumber
 import re
 
-path = '[定期报告]黄山良业_2018年年度报告.pdf'
+path = "./announcement/873237/[临时公告]五十弦_会计政策变更公告.pdf"
 pdf = pdfplumber.open(path)
 
 for page in pdf.pages:
